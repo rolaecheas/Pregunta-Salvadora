@@ -1,0 +1,99 @@
+body {
+	
+	background: url('fondover.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center center;
+	
+}
+
+#customers {
+     font-family: 'Calligraffitti', cursive;
+    border-collapse: collapse;
+    width: 65%;
+     text-align: center;
+      border: 10px solid #0080c0;
+	padding: 15px;
+}
+
+#customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    border: 10px solid rgb(231, 76, 60);
+	padding: 15px;
+}
+
+#customers tr:nth-child(even){
+	background-color: #f2f2f2;
+}
+
+#customers tr:hover {
+	background-color: #ddd;
+	}
+
+#customers th {
+     padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background: black;
+    padding: 15px;
+	  border: 10px solid rgb(231, 76, 60);
+	color: rgb(251, 252, 252);
+}
+h1 {
+	
+	color: rgb(251, 252, 252);
+	background: black;
+	heigth: 200px;
+	padding: 15px;
+	  border: 10px solid #0080c0;
+        font-family: 'Calligraffitti', cursive;
+       width: 30%;
+	
+}
+h4 {
+	
+	color: black;
+	background: white;
+	heigth: 200px;
+	padding: 15px;
+	  border: 10px solid black;
+        font-family: 'Calligraffitti', cursive;
+       width: 20%;
+	
+}
+div#menu{
+    width: 200px;
+     position: relative;
+     top: 10px;
+}
+
+div#menu div#ula{
+    list-style: none;
+}
+div#menu td{
+     margin-top: 15px;
+     font-family: 'Calligraffitti';
+    font-size: 18px;
+    background-color: #0080c0;
+    width: 160px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 0px 20px 20px 0px;
+    padding-left: 20px;
+    box-shadow: 5px 0px 10px black;
+    -webkit-transition: padding-left 0.6s;
+    color: white;
+    
+}
+div#menu td:hover {
+    padding-left: 52px;
+}
+#pie {
+	margin-top: 20px;
+	background: black;
+	color: rgb(247, 249, 249);
+	text-align: center;
+    margin-bottom: 20px;
+}

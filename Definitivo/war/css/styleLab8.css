@@ -1,0 +1,94 @@
+html {
+   margin: 0px;
+   padding:0px
+}
+body {
+
+	background: url('background.png');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center center;
+}
+h1 {
+	text-underline-position: auto;
+	color: rgb(251, 252, 252);
+	background: black;
+	left: 25%;
+	padding: 15px;
+    border: 10px solid rgb(21, 67, 96);
+   font-family: 'Calligraffitti', cursive;
+	 width: 50%;
+    position: relative;
+    
+}
+
+.boxlogin {
+   border-radius:4px;
+    margin: 100px auto;
+    width:320px;
+    -webki-border-radius: 4px;
+    -moz-border-radius:4px;
+     background-color: rgb(21, 67, 96);
+    margin-top: -20px;
+}
+input[type="submit"]{
+    margin-top: 15px;
+    text-align: center;
+    margin-left: 95px;
+} 
+label{
+    text-align: center;
+    color:	white;
+    font-size:15pt;
+    margin: 10px;
+    font-family: 'Calligraffitti', cursive;
+   
+    
+}
+#pie {
+	margin-top: 20px;
+	background: black;
+	color: rgb(247, 249, 249);
+	text-align: center;
+    margin-bottom: 20px;
+}
+h4 {
+	
+	color: rgb(251, 252, 252);
+	background: black;
+	heigth: 200px;
+	padding: 15px;
+	  border: 10px solid rgb (21, 67, 96);
+        font-family: 'Calligraffitti', cursive;
+       width: 30%;
+       text-align: center;
+}
+div#menu{
+    width: 200px;
+     position: relative;
+     top: 10px;
+}
+
+div#menu div#ula{
+    list-style: none;
+}
+div#menu td{
+     margin-top: 15px;
+     font-family: 'Calligraffitti';
+    font-size: 18px;
+    background-color: rgb(21, 67, 96);
+    width: 160px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 0px 20px 20px 0px;
+    padding-left: 20px;
+    box-shadow: 5px 0px 10px black;
+    -webkit-transition: padding-left 0.6s;
+    color: white;
+    text-decoration:none;
+    
+}
+div#menu td:hover {
+    padding-left: 52px;
+}
